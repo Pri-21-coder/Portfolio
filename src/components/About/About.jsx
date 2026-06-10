@@ -14,25 +14,27 @@ const About = () => {
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
           {/* Section Title */}
-<motion.h2 
-  initial={{ opacity: 0, scale: 0.8 }}
-  whileInView={{ opacity: 1, scale: 1 }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.5 }}
-  className="text-4xl md:text-5xl font-extrabold text-white tracking-tight"
-> 
-  About Me
-</motion.h2>
+          <motion.h2 
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-4xl md:text-5xl font-extrabold text-white tracking-tight"
+          > 
+            About Me
+          </motion.h2>
 
-<motion.div 
-  initial={{ width: 0 }}
-  whileInView={{ width: "6rem" }}
-  viewport={{ once: true }}
-  transition={{ duration: 0.8, delay: 0.2 }}
-  className="h-1.5 bg-[#8245ec] mt-4 rounded-full" 
-/>
+          {/* Purple Line - Added mx-auto md:mx-0 here */}
+          <motion.div 
+            initial={{ width: 0 }}
+            whileInView={{ width: "6rem" }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="h-1.5 bg-[#8245ec] mt-4 rounded-full mx-auto md:mx-0" 
+          />
+          
           {/* About Me Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-6 leading-relaxed">
             I am a Full Stack Developer specializing in the MERN Stack, 
             passionate about building scalable web applications 
             and delivering seamless user experiences. 
