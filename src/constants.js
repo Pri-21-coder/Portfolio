@@ -104,7 +104,7 @@ export const experiences = [
     img: swocLogo, 
     role: "Open Source Contributor",
     company: "SWOC",
-    date: "January 2025 - March 2025",
+    date: "January 2026 - March 2025",
     desc: "Merged 50+ high-impact PRs and identified critical issues across multiple open-source projects during SWOC.",
     skills: ["Open Source", "Bug fixing", "Innovative feature implementation", "MERN Stack"]
   },
@@ -113,7 +113,7 @@ export const experiences = [
     img: wocLogo, 
     role: "Open Source Contributor",
     company: "WOC",
-    date: "January 2025 - April 2025",
+    date: "January 2026 - April 2025",
     desc: "Selected project proposal for the WallGodds Web organization and successfully merged 2+ high-impact Pull Requests.",
     skills: ["Web Development", "Version Control", "Pull Requests"]
   },
@@ -122,9 +122,27 @@ export const experiences = [
     img: swocLogo, 
     role: "Project Admin",
     company: "SWOC",
-    date: "Present", 
-    desc: "Currently serving as a Project Admin, overseeing contributions and managing project roadmaps.",
+    date: "June 2026-August 2026", 
+    desc: "As a Project Admin, overseeing contributions and managing project roadmaps.",
     skills: ["Project Management", "Leadership", "Open Source"]
+  },
+  {
+    id: 4,
+    img: indiaSpaceLabLogo,
+    role: "Summer Intern & Technical Trainee", 
+    company: "India Space Lab",
+    date: "June 2026 - July 2026", 
+    desc: "Worked in Advanced Drone Technology, CanSat/CubeSat Programs, Rocketry Science, and GIS & Disaster Management.", 
+    skills: ["Drone Technology", "GIS", "CanSat/CubeSat", "Disaster Management"]
+  },
+  {
+    id: 5,
+    img: aurorascapeLogo,
+    role: "Software Engineer Intern", 
+    company: "Aurorascape Development", 
+    date: "July 2026", 
+    desc: "Completed a one-month intensive software engineering internship, gaining practical hands-on industry experience.", 
+    skills: ["Frontend Development", "Responsive UI"]
   }
 ];
   
