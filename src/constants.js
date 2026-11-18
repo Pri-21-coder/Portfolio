@@ -29,6 +29,9 @@ import canvaLogo from './assets/tech_logo/canva.png';
 import gssocLogo from './assets/company_logo/gssoc.png';
 import swocLogo from './assets/company_logo/swoc.png';
 import wocLogo from './assets/company_logo/woc.png';
+import wocLogo from './assets/company_logo/woc.png';
+import indiaSpaceLabLogo from './assets/company_logo/isl.png';
+import aurorascapeLogo from './assets/company_logo/aurorascape.png';
 
 // Education Section Logo's
 import mckvLogo from './assets/education_logo/mckvie.png';
@@ -37,6 +40,7 @@ import ubvLogo from './assets/education_logo/ubv.png';
 
 // Project Section Logo's
 import stayoLogo from './assets/work_logo/stayo.png';
+import  meetifyLogo from './assets/work_logo/meetify.png';
 import weatherLogo from './assets/work_logo/weather.png';
 
 
@@ -188,7 +192,17 @@ export const experiences = [
     webapp: "https://stayo-rwf8.onrender.com",
   },
   {
-    id: 2,
+    id: 2, 
+    title: "Meetify", 
+    description: "A secure video conferencing application combining WebRTC for peer-to-peer media streaming with Socket.io for real-time chat.", 
+    fullDescription: "Developed a secure video conferencing application combining WebRTC for peer-to-peer media streaming with Socket.io for real-time chat and history tracking.", 
+    tags: ["React.js", "Node.js", "MongoDB", "Express.js", "WebRTC", "Socket.io"], 
+    image: meetifyLogo, 
+    github: "https://github.com/Pri-21-coder/Meetify", 
+    webapp: "https://meetify-web.onrender.com/" 
+}
+  {
+    id: 3,
     title: "Weather-Application",
     description: "A production-grade React application delivering real-time weather data, showcasing scalable component design and resilient data pipelines.",
     fullDescription: "This isn't just a weather display—it is a demonstration of modern frontend architecture. Built with React.js and integrated with the Weatherstack API, this application moves beyond basic functionality to showcase custom hook engineering, scalable component design, and graceful error handling. Key features include Custom API Hooks for async fetching, a Resilient Data Pipeline, Modular Architecture for easy maintenance, and a Dynamic UI that adapts to current weather conditions.",
