@@ -30,8 +30,8 @@ import gssocLogo from './assets/company_logo/gssoc.png';
 import swocLogo from './assets/company_logo/swoc.png';
 import wocLogo from './assets/company_logo/woc.png';
 import wocLogo from './assets/company_logo/woc.png';
-import indiaSpaceLabLogo from './assets/company_logo/isl.png';
-import aurorascapeLogo from './assets/company_logo/aurorascape.png';
+import indiaSpaceLabLogo from './assets/company_logo/isl.jpeg';
+import aurorascapeLogo from './assets/company_logo/aurorascape.jpeg';
 
 // Education Section Logo's
 import mckvLogo from './assets/education_logo/mckvie.png';
