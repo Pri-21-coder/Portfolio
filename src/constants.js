@@ -200,7 +200,7 @@ export const experiences = [
     image: meetifyLogo, 
     github: "https://github.com/Pri-21-coder/Meetify", 
     webapp: "https://meetify-web.onrender.com/" 
-}
+},
   {
     id: 3,
     title: "Weather-Application",
