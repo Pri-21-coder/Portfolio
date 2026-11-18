@@ -40,7 +40,7 @@ import ubvLogo from './assets/education_logo/ubv.png';
 
 // Project Section Logo's
 import stayoLogo from './assets/work_logo/stayo.png';
-import  meetifyLogo from './assets/work_logo/meetify.png';
+import  meetifyLogo from './assets/work_logo/videocam.svg';
 import weatherLogo from './assets/work_logo/weather.png';
 
 
