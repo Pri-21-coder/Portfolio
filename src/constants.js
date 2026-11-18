@@ -29,7 +29,6 @@ import canvaLogo from './assets/tech_logo/canva.png';
 import gssocLogo from './assets/company_logo/gssoc.png';
 import swocLogo from './assets/company_logo/swoc.png';
 import wocLogo from './assets/company_logo/woc.png';
-import wocLogo from './assets/company_logo/woc.png';
 import indiaSpaceLabLogo from './assets/company_logo/isl.jpeg';
 import aurorascapeLogo from './assets/company_logo/aurorascape.jpeg';
 
